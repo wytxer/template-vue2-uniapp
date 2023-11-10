@@ -1,0 +1,15 @@
+page,
+view,
+text {
+  font-size: 28rpx;
+  color: #333333;
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Microsoft YaHei", SimSun, "sans-serif";
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+  display: none;
+}

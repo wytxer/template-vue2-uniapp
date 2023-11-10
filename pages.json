@@ -1,0 +1,76 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  /**
+   * pages 数组中第一项表示应用启动页
+   * @link https://uniapp.dcloud.io/collocation/pages
+   */
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/web-view/web-view",
+      "style": {
+        "navigationBarTitleText": "加载中",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationBarTitleText": "测试页面"
+      }
+    },
+    {
+      "path": "pages/maintain/maintain",
+      "style": {
+        "navigationBarTitleText": "维护中"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  // 模式配置，仅开发期间生效
+  "condition": {
+    // 当前激活的模式
+    "current": 0,
+    "list": [
+      {
+        "name": "测试页面",
+        "path": "pages/test/test",
+        "query": ""
+      },
+      {
+        "name": "登录页面",
+        "path": "pages/login/login",
+        "query": ""
+      },
+      {
+        "name": "维护中",
+        "path": "pages/maintain/maintain",
+        "query": ""
+      }
+    ]
+  }
+}
