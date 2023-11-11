@@ -40,9 +40,9 @@ request.setConfig((config) => {
       // 小程序版本号，不一定跟发布的一致，这个主要是内部自己维护的一个变量，用来控制 api 返回数据的
       'wechat-version': '1.0.0',
       // 平台标识
-      platform: 'wxapp',
+      platform: 'WECHAT_APP',
       // 产品
-      product: 'product'
+      product: 'PRODUCT'
     },
     // 跨域请求时是否携带凭证
     withCredentials: true
